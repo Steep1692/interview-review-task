@@ -15,13 +15,13 @@ Your task is:
 *** PS: ***
 <br/>
 <i>
-> Make as many remarks as possible, even for tiny details.
+- Make as many remarks as possible, even for tiny details.
 <br/>
-– Feel free to suggest new implementation ideas.
+- Feel free to suggest new implementation ideas.
 <br/>
-– Include refactored code samples, so that Developer Y would understand you right.
+- Include refactored code samples, so that Developer Y would understand you right.
 <br/>
-– Clarification question is a remark too.
+- Clarification question is a remark too.
 <br/>
 Show your skill!
 <br/>

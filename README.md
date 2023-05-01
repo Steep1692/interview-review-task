@@ -1,7 +1,6 @@
 # Code review task
-There is a project X.  The project is considered to be scalable, with a lot of features inside.
-<br/>
-<br/>
+There is a project X.
+The project is considered to be scalable, with a lot of features inside.
 You are a Tech Lead of the project X, and you proceed code review.
 <br/>
 

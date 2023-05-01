@@ -10,11 +10,8 @@ Developer Y of your team has made a merge request, where he included new files `
 ### Your task is:
 Make code review for the files,  **applying YOUR set of code best–practises**.
 - Make as many remarks as possible, even for tiny details.
-<br/>
 - Feel free to suggest new implementation ideas.
-<br/>
 - Include refactored code samples, so that Developer Y would understand you right.
-<br/>
 - Clarification question is a remark too.
 <br/>
 Show your skill!

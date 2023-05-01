@@ -13,7 +13,6 @@ Your task is:
 <br/>
 
 ### PS:
-<br/>
 <i>
 - Make as many remarks as possible, even for tiny details.
 <br/>

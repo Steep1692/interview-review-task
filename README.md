@@ -12,16 +12,16 @@ Your task is:
 1. Make code review for the files,  **applying YOUR set of code best–practises**.
 <br/>
 
-***PS:***
+
 <i>
 <br/>
-– Make as many remarks as possible, even for tiny details.
+> Make as many remarks as possible, even for tiny details.
 <br/>
-– Feel free to suggest new implementation ideas.
+> Feel free to suggest new implementation ideas.
 <br/>
-– Include refactored code samples, so that Developer Y would understand you right.
+> Include refactored code samples, so that Developer Y would understand you right.
 <br/>
-– Clarification question is a remark too.
+> Clarification question is a remark too.
 <br/>
 Show your skill!
 <br/>

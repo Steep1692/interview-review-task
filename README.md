@@ -12,7 +12,7 @@ Your task is:
 1. Make code review for the files,  **applying YOUR set of code best–practises**.
 <br/>
 
-*** PS: ***
+### PS:
 <br/>
 <i>
 - Make as many remarks as possible, even for tiny details.

@@ -17,6 +17,5 @@ Make code review for the files,  **applying YOUR set of code best–practises**.
 <br/>
 <br/>
 Show your skill!
-
----
-We would greatly appreciate it if you could provide a feedback on the task!
+<br/>
+<sub>We would greatly appreciate it if you could provide a feedback on the task!</sub>

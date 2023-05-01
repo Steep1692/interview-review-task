@@ -15,7 +15,6 @@ Make code review for the files,  **applying YOUR set of code best–practises**.
 >- Include refactored code samples, so that Developer Y would understand you right.
 >- Clarification question is a remark too.
 <br/>
-<br/>
 Show your skill!
 <br/>
 <sub>We would greatly appreciate it if you could provide a feedback on the task!</sub>

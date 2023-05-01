@@ -13,7 +13,8 @@ Your task is:
 <br/>
 
 ***PS:***
-*<br/>
+<i>
+<br/>
 – Make as many remarks as possible, even for tiny details.
 <br/>
 – Feel free to suggest new implementation ideas.
@@ -23,7 +24,8 @@ Your task is:
 – Clarification question is a remark too.
 <br/>
 Show your skill!
-<br/>*
+<br/>
+</i>
 <br/>
 ---
 Leave a Feedback!

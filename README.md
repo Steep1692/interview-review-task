@@ -19,4 +19,4 @@ Make code review for the files,  **applying YOUR set of code best–practises**.
 Show your skill!
 
 ---
-Leave a Feedback!
+Leave a Feedback on the task.

@@ -10,7 +10,6 @@ Developer Y of your team has made a merge request, where he included new files `
 #### Your task is:
 Make code review for the files,  **applying YOUR set of code best–practises**.
 
-#### PS:
 <i>
 - Make as many remarks as possible, even for tiny details.
 <br/>

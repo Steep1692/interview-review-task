@@ -1,13 +1,12 @@
-import { call, put, takeEvery, delay } from "redux-saga/effects";
 import { fetchMessages } from "../api";
+import { call, put, takeEvery } from "redux-saga/effects";
 import {
   addMessagesAction,
 } from "./actions";
 import {
   REQUEST_MESSAGES,
-  IS_ONLINE,
-  IS_OFFLINE,
   IS_FETCHING,
+  ERROR_MESSAGE,
   IS_NOT_FETCHING,
 } from "./types";
 
@@ -29,28 +28,9 @@ function* getMessages() {
       userId: item.user.id,
     }));
     yield put(addMessagesAction(messages));
-    yield call(addMessagesToLocalStorage, messages);
-    yield call(
-      setValueToLocalStorage,
-      "countMessages",
-      JSON.stringify(+countMessages + messages.length)
-    );
     yield put({ type: IS_NOT_FETCHING });
   } catch (e) {
-    yield put({ type: IS_OFFLINE });
-    yield delay(2000);
-    yield put({ type: IS_ONLINE });
+    yield put({ type: ERROR_MESSAGE, payload: 'You are offline!' });
     yield put({ type: IS_NOT_FETCHING });
   }
 }
-
-const addMessagesToLocalStorage = (messages) => {
-  const storageMessages = JSON.parse(localStorage.getItem("messages")) || [];
-  localStorage.setItem(
-    "messages",
-    JSON.stringify([...storageMessages, ...messages])
-  );
-};
-
-const setValueToLocalStorage = (property, value) =>
-  localStorage.setItem(property, value);

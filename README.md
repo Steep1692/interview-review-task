@@ -8,7 +8,6 @@ You are a Tech Lead of the project X, and you proceed code review.
 Developer Y of your team has made a merge request, where he included new files `/saga.js` and `/App.js`
 
 #### Your task is:
-<br/>
 Make code review for the files,  **applying YOUR set of code best–practises**.
 
 #### PS:

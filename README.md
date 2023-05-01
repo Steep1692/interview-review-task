@@ -15,7 +15,7 @@ Your task is:
 *** PS: ***
 <br/>
 <i>
-– Make as many remarks as possible, even for tiny details.
+> Make as many remarks as possible, even for tiny details.
 <br/>
 – Feel free to suggest new implementation ideas.
 <br/>

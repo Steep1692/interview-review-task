@@ -1,4 +1,4 @@
-# Code review task
+# Code Review task
 There is a project X.
 <br/>
 The project is considered to be scalable, with a lot of features inside.

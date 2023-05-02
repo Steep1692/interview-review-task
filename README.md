@@ -15,7 +15,7 @@ Developer Y of your team has made a merge request, where he included new files `
 >- Include refactored code samples, so that Developer Y would understand you right.
 >- Clarification question is a remark too.
 2. Send the result back to us.
-<br/>
+
 <br/>
 Show your skill!
 <br/>

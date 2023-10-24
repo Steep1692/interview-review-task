@@ -6,15 +6,21 @@ import { setUserToStoreAction } from "@actions";
 
 function App() {
   const dispatch = useDispatch()
-  const user = useSelector((state) => state.app.user);
+  
+  const user = useSelector(({ app }) => app.user);
+  const userStatus = useSelector(({ app }) => app.user.status);
+  
   const userFromStorage = localStorage.getItem("user");
 
-  useLayoutEffect(() => {
-    const user = JSON.parse(userFromStorage)
-    user && dispatch(setUserToStoreAction(user));
-  }, []);
+  useEffect(() => {
+    const userFromStorageParsed = JSON.parse(userFromStorage)
 
-  if (userFromStorage || user?.name) {
+    if (userFromStorageParsed !== undefined) {
+      dispatch(setUserToStoreAction(userFromStorageParsed));
+    }
+  }, [userFromStorage, dispatch]);
+
+  if (user) {
     return <Chat />;
   }
 
